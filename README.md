@@ -5,11 +5,14 @@ NOTE: This is not official implementation. Original paper is [DeepPose: Human Po
 
 # Requirements
 
-- [Chainer 1.5+](https://github.com/pfnet/chainer) (Neural network framework)
+- [Chainer 1.5+](https://github.com/pfnet/chainer) (Neural network framework) : The best way to install this if you are using Anaconda is to clone the original respository and use the python setup.py install command as indicated in the instructions of chainer.
 - numpy 1.9+
 - scipy 0.16+
 - scikit-learn 0.15+
-- OpenCV 2.4+
+- OpenCV 2.4+ : Again is you are using anaconda, this is better to be installed by using the command: 
+```
+conda install opencv
+```
 
 # Data preparation
 
