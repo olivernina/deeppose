@@ -203,7 +203,7 @@ if __name__ == '__main__':
         cuda.get_device(args.gpu).use()
 
     os.environ['CHAINER_TYPE_CHECK'] = '0'
-    os.environ['CHAINER_SEED'] = args.seed
+    os.environ['CHAINER_SEED'] = '1701'#args.seed
     np.random.seed(args.seed)
 
     # create result dir
